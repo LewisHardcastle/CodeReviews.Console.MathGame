@@ -1,14 +1,14 @@
 ﻿using AngouriMath;
 
-namespace MathGame
+namespace MathGame.LewisHardcastle
 {
     public class MathGameService
     {
         public List<GameHistoryModel> gameHistory = new List<GameHistoryModel>();
 
-        int gameCounter = 0;
+        int gameCounter;
         int score;
-        int overallScore = 0;
+        int overallScore;
         public void GenerateMathProblem(string userAnswer)
         {
             Random rnd = new Random();

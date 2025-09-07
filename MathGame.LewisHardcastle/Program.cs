@@ -1,5 +1,4 @@
-﻿
-using MathGame;
+﻿using MathGame.LewisHardcastle;
 
 class Program
 {
